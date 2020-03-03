@@ -2,7 +2,7 @@
 
 # Name of website
 title: My website
-
+future: true
 # Short description of your site
 description: A virtual proof that I'm awesome
 
