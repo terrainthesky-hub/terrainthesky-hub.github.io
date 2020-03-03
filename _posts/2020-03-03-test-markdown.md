@@ -7,7 +7,6 @@ gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
-({{ terrainthesky-hub.github.io }}{% link _includes/Time spent on game genres.html %})
 
 
 **Here is some bold text**
