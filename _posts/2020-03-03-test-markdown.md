@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Time We Spend on Steam Games by Categories
-subtitle: Averages and standard deviations of categories?
+subtitle: Data Exploration on Steam Game Time Played
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
