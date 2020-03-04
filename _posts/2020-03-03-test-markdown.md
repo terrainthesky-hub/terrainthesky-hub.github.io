@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Time We Spend on Steam Games by Categories
-subtitle: Data Exploration for Time Played on Steam Games 
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+subtitle: Data Exploration for Time Played on Steam Games
 ---
 
 My hypothesis is that there is not a correlation between the price of a game and how much time people spend on it.
