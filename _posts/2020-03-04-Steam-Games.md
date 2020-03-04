@@ -11,7 +11,7 @@ There were 27000 steam games. I found that there were around 21000 steam games w
 
 I tried to find the correlation between the average time played of all games and the price of all the games. It ended up being .03, and then I removed all the free to play games from the set and ran the correlation again. It was still low at .13. So there didn’t seem to be a correlation between how much time we spend gaming and how much we pay for games.
 
-But what are people spending their time playing? I subset the data into different genres, including a f2p (free to play) category because although f2p games like dota 2 and fortnite are very different games, they share the fact they have a game loop that keeps you coming back to play more. Almost all f2p games share a similar philosophy about having the player return to the game and never really beating it. 
+But what are people spending their time playing? I subset the data into different genres, including a f2p (free to play) category because although f2p games like dota 2 and fortnite are very different games, they share the fact they have a game loop that keeps you coming back to play more. Many f2p games share a similar philosophy about having the player return to the game and never really beating it. 
 
 I found the means and standard deviations of each of the category subsets I made. There were some interesting results! 
 
