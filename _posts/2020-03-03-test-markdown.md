@@ -19,7 +19,7 @@ Most notably, mmo and f2p games had the highest average playtime, but the standa
 
 How critical are people of the genre?
 
-![Positive review average by category](/img/reviews_avg.png){:class="img-responsive"}
+![Positive review average by category](/img/reviews_avgs.png){:class="img-responsive"}
 
 Interestingly, most of the genres even out at a C or low B. Metroidvania people are enjoying their genre even though there’s less overall hours than other genres. MMO people are apparently very critical of their genre despite investing a lot of time in the genre.
 The data seems to show that the game loop is what drives player time investment so f2p models are definitely viable in terms of player time investment. In conclusion, if we could harness the power of a f2p mmo game loop there’s either a lot of money to be made or a lot of people’s energy and attention being spent (and hardware running the game). Maybe there’s a captcha like interaction we could create with those game loops . Or no one’s tried having the game loop mine cryptocurrency yet, or better yet have several different games all with similar time investment scales mine a cryptocurrency. 
