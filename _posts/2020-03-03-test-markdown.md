@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time We Spend on Steam Game Categories.
+title: Time We Spend on Steam Games by Categories
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
