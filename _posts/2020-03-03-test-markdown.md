@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Time We Spend on Steam Games by Categories
-subtitle: Data Exploration on Time Played on Steam Games 
+subtitle: Data Exploration for Time Played on Steam Games 
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
