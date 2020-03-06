@@ -6,6 +6,8 @@ subtitle: Data Exploration for Time Played on Steam Games
 
 I looked at the steam games data found at kaggle, here: [Steam Games](https://www.kaggle.com/nikdavis/steam-store-games)
 
+My notebook: [ipynb](https://github.com/terrainthesky-hub/Data-Science-Exploration)
+
 My hypothesis is that there is not a correlation between the price of a game and how much time people spend on it.
 There were 27000 steam games. I found that there were around 21000 steam games with an average playtime of 0. That’s a lot of unplayed games and shovel ware. I created a binary column which said whether the game has a playtime of 0 or not. Separating the two, I finally started to recognize games on the list.
 
