@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Effective Basic Predictive Modeling is on a Covid 19 dataset
+title: How Effective Basic Predictive Modeling is on A Covid 19 Dataset
 ---
 
 I looked at the most recent Covid-19 data set found here: [Covid-19 Dataset](https://data.world/covid-19-data-resource-hub/covid-19-case-counts)
