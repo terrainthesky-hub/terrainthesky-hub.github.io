@@ -2,20 +2,20 @@ The KNearestNeighbors algorithim is fairly simple, you find the euclidiean dista
 we want to find closest. After that we square the number and find the square root to avoid negative numbers. In the simplest sense we are,
 subtracting every row by the target to find which row is closest distance to the target.
 
-{% highlight python linenos %}
 
+{% highlight python %}
 	  def euclidiean_distance(row1, row2):
 	      distance = 0.0
 	      for i in range(len(row1)-1):
 		  distance += (row1[i] - row2[i])**2
 	      return sqrt(distance)
-	      
-{% endhighlight %}
+{% endhighlight %}	      
+
 
 
 To get the neighbors it's a bit tricker. You need to append the distances to a list so they're stored in memory
-then you sort the distances into a tuple. Finally, you create another list and iterate the distances based on how many 
-number of neighbors you want returned.
+then you sort the distances with a custom key so that the second item in the tuple is used in sorting. Finally,
+you create another list and iterate the distances based on how many number of neighbors you want returned.
 
 	def get_neighbors(train, test_row, num_neighbors):
 	      distances = list()
