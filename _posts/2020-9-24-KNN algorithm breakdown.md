@@ -2,7 +2,7 @@ The KNearestNeighbors algorithim is fairly simple, you find the euclidiean dista
 we want to find closest. After that we square the number and find the square root to avoid negative numbers. In the simplest sense we are,
 subtracting every row by the target to find which row is closest distance to the target.
 
-{% highlight Python linenos%}
+{% highlight python linenos %}
 
 	  def euclidiean_distance(row1, row2):
 	      distance = 0.0
