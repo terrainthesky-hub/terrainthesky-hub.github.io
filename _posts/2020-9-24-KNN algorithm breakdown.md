@@ -1,5 +1,7 @@
 I followed this guide on how to solve the KNN algorithm: https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
 
+KNearestNeighbors is essentially just finding the things that are closest in distance. 
+
 The KNearestNeighbors algorithm is fairly simple to make without libraries, you find the euclidiean distance by subtracting the first iterated 
 row by the target we want to find closest. After that we square the number and find the square root to avoid negative numbers.
 In the simplest sense we are, subtracting every row by the target to find which row is closest distance to the target.
