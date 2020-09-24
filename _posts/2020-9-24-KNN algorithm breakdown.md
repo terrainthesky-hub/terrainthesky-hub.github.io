@@ -58,4 +58,4 @@ the largest number. The max() function takes a set of unique class values and ca
 
 	prediction = predict_classification(dataset, dataset[0], 3)
 	print('Expected %d, Got %d.' % (dataset[0][-1], prediction))
-Expected 2, Got 2.
+	Expected 2, Got 2.
