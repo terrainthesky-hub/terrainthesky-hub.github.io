@@ -1,16 +1,14 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi! I'm Lesley, welcome to my portfolio!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+I'm Data Scientist / Data Engineer that's passionate about data and storytelling. I have a literature degree from UC Berkeley, and I graduated from Lambda School to learn about Data Science and Computer Science. I love learning about new tech, doing deep dives into data, and figuring out challenging puzzles.
 
-What else do you need?
+Check out my searchlight to see what others think about me: https://app.searchlight.ai/candidate/public-profile
 
-### my history
+For more information about me check out my LinkedIn: https://www.linkedin.com/in/lesley-rich-86bb8572/
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Feel free to reach out to me at lesley.t.rich@gmail.com
