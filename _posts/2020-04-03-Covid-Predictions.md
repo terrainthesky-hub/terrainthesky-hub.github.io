@@ -7,7 +7,7 @@ I looked at the most recent Covid-19 data set found here: [Covid-19 Dataset](htt
 
 I wanted to find out how effective some predictive modeling techniques I learned were on a real world data set. I cleaned the data a bit for modeling by popping out the latest days and months and split the training and test to where I would have 10 days of test data. I tried lots of different models, but I found I could get the best r2 score without overfitting using Adaboostregressor. I ended up with an r2 score of .72, seeming pretty good on the surface. But when I look deeper at the data and compare predicted vs actual cases the model falls short of what's reported:
 
-Sorry, it takes a bit to load on Herkou. Please be patient.
+Sorry, it takes a bit to load on Heroku. Please be patient.
 
 [Covid-19 predictive modeling app](https://covid-predictive-modeling.herokuapp.com/)
 
