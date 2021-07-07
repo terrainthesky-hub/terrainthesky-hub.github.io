@@ -19,21 +19,21 @@ showing the url without the username and password, writing to the database, and 
 After I confirmed that this was all working properly I loaded the app to Elastic Beanstalk, an AWS application hosting tool. I made sure my
 pip environment had all the necessary installations and loaded it into Elastic Beanstalk.
 
-[!EB](/img/EB_working.JPG)
+![EB](/img/EB_working.JPG)
 
 Elastic Beanstalk worked and I was able to host FastAPI and use all the functions I had made once I added the environment variables to AWS.
 
 The URL retrieval worked.
 
-[!URL](/img/get_url.JPG)
+![URL](/img/get_url.JPG)
 
 The writing to the database worked.
 
-[!Write](/img/write.JPG)
+![Write](/img/write.JPG)
 
 And finally reading from the database worked as well.
 
-[!Read](/img/read.jpg)
+![Read](/img/read.jpg)
 
 Everything was working properly so I deleted it from AWS because I was using AWS free tier to properly learn how to use it and I didn't want to get charged for a simple application.
 
