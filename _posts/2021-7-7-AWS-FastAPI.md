@@ -30,7 +30,7 @@ The writing to the database worked.
 [!Write](/img/write.JPG)
 
 And finally reading from the database worked as well.
-[!Read)(/img/read.jpg)
+[!Read](/img/read.jpg)
 
 Everything was working properly so I deleted it from AWS because I was using AWS free tier to properly learn how to use it and I didn't want to get charged for a simple application.
 
