@@ -24,12 +24,15 @@ pip environment had all the necessary installations and loaded it into Elastic B
 Elastic Beanstalk worked and I was able to host FastAPI and use all the functions I had made once I added the environment variables to AWS.
 
 The URL retrieval worked.
+
 [!URL](/img/get_url.JPG)
 
 The writing to the database worked.
+
 [!Write](/img/write.JPG)
 
 And finally reading from the database worked as well.
+
 [!Read](/img/read.jpg)
 
 Everything was working properly so I deleted it from AWS because I was using AWS free tier to properly learn how to use it and I didn't want to get charged for a simple application.
