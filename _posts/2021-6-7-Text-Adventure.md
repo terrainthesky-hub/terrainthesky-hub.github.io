@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Object Oriented Python in a Text Adventure Game.
+title: Object Oriented Python in a Text Adventure Game
 subtitle: getting acquainted with OOP
 ---
 
