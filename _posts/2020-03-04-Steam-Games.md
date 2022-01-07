@@ -11,7 +11,7 @@ My notebook: [ipynb](https://github.com/terrainthesky-hub/Data-Science-Explorati
 My hypothesis is that there is not a correlation between the price of a game and how much time people spend on it.
 There were 27000 steam games. I found that there were around 21000 steam games with an average playtime of 0. That’s a lot of unplayed games and shovel ware. I created a binary column which said whether the game has a playtime of 0 or not. Separating the two, I finally started to recognize games on the list.
 
-I tried to find the correlation between the average time played of all games and the price of all the games. It ended up being .03, and then I removed all the free to play games from the set and ran the correlation again. It was still low at .13. So there didn’t seem to be a strong positive correlation between how much time we spend gaming and how much we pay for games, only a weak positive correlation.
+I tried to find the correlation between the average time played of all games and the price of all the games. It ended up being .03, and then I removed all the free to play games from the set and ran the correlation again. It was still low at .13. So there didn’t seem to be a strong or weak positive correlation between how much time we spend gaming and how much we pay for games.
 
 But what are people spending their time playing? I subset the data into different genres, including a f2p (free to play) category because although f2p games like dota 2 and fortnite are very different games, they share the fact they have a game loop that keeps you coming back to play more. Many f2p games share a similar philosophy about having the player return to the game and never really beating it. 
 
