@@ -5,7 +5,7 @@ subtitle: Java, Javalin, JavaScript, HTML, CSS, Selenium, JDBC, PostgreSQL
 ---
 
 # The Water Cooler 
-The Water Cooler is a job board that both companies and individuals can sign into. Companies can post job opportunities that they have, as well as create skill tests that may correspond to those openings. Individuals may search for and apply to jobs based on their location and type, as well as take posted skill tests that companies provide."
+The Water Cooler is a job board that both companies and individuals can sign into. Companies can post job opportunities that they have, as well as create skill tests that may correspond to those openings. Individuals may search for and apply to jobs based on their location and type, as well as take posted skill tests that companies provide.
 
 # Roles / Responsibilities
 * Implemented Test Driven Development with positive, negative, and mock tests with Java.
