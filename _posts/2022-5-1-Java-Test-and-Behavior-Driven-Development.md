@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Driven DEvelopment
+title: Test Driven Development
 subtitle: Java, Javalin, JavaScript, HTML, CSS, Selenium, JDBC, PostgreSQL
 ---
 
