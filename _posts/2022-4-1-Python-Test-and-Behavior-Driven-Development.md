@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Driven DEvelopment
+title: Test and Behavior Driven Development in Python
 subtitle: JavaScript, HTML, CSS, SQL, Python, Flask, Postman, Selenium
 ---
 
