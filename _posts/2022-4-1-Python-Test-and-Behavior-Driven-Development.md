@@ -11,7 +11,7 @@ The Employee Reimbursement System, ERS, allows employees to submit reimbursement
 
 # Roles / Responsibilities
 * Created API framework in Python and Flask.
-* Created front end login and landing page with  HTML/CSS and Javascript.
+* Created front end login and landing page with HTML/CSS and Javascript.
 * Created front end and backend interactions using Javascript and Flask
 * Built End-to-End testing with Selenium, Behave, and Cucumber
 * Assisted in designing unit tests with other Revature team members
