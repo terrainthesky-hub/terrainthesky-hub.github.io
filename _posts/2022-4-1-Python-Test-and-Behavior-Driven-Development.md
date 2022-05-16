@@ -19,6 +19,6 @@ The Employee Reimbursement System, ERS, allows employees to submit reimbursement
 * Made mock Postman tests for testing states of data pipeline.
 * Made Postman tests to check for exceptions in logging in and displaying tables of users who needed multiple reimbursement tickets.
 
-https://github.com/terrainthesky-hub/Project_1-1
+[https://github.com/terrainthesky-hub/Project_1-1](Employee Reimbursement System)
 
 -Lesley
