@@ -18,7 +18,6 @@ The Water Cooler is a job board that both companies and individuals can sign int
 * Successfully ran End-to-End testing with Selenium and Cucumber for all actions the application could make with my framework.
 * Assisted other team members with their 3 layer application functionality in various steps.
 
-[https://github.com/terrainthesky-hub/watercoolerclubP2](The Water Cooler Club)
-
+[The Water Cooler Club](https://github.com/terrainthesky-hub/watercoolerclubP2)
 
 -Lesley
