@@ -1,3 +1,10 @@
+---
+layout: post
+title: Setting up WebdriverIO Mocha Framework With Docker, GitHub Actions and Allure.
+subtitle: WebdriverIO, npm, Typescript, Mocha, Docker, Github Actions, Allure
+---
+
+
 There's quite a few different technologies at work, but we're going to assume you have and can use, Git, VS Code, Git Bash installed. We'll begin starting off with setting up WebdriverIO, Mocha, and Allure.
 
 In your main directory, in the bash terminal, enter this to begin the instillation of WebdriverIO and Mocha for the WebdriverIO Command Line Interface.
