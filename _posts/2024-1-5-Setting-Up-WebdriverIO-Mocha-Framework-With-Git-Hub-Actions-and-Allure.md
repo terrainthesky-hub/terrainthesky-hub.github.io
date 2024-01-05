@@ -215,4 +215,4 @@ Now in your bash terminal do git add ., git commit -m "your commit name", and gi
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/624f4825-042c-4a3b-9419-6b10626bf4d2)
 
-There you go, now you can configure Allure, the framework environments, and other github permissions as needed.
+Now you can configure Allure, the framework, and other github permissions as needed.
