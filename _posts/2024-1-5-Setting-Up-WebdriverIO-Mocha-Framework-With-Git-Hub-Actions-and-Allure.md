@@ -123,7 +123,7 @@ Next, you'll want to get your package.json file set up for using Allure, Mocha, 
           }
         }
 
-Now you should have Docker installed, and create a Dockerfile with this configuration:
+Now you should have Docker installed, and create a Dockerfile with this configuration. Use environment variables to open the port you want:
 
         # Use an official Node runtime as a parent image
         FROM node:latest
@@ -142,13 +142,13 @@ Now you should have Docker installed, and create a Dockerfile with this configur
         
         # Copy the current directory contents into the container at /usr/src/app
         COPY . .
+
+        # Expose the port dynamically
+        EXPOSE $PORT
         
         # Install any needed packages specified in package.json
         COPY package*.json ./
         RUN npm install
-        
-        # Make port 4444 available to the world outside this container
-        EXPOSE 4444
         
         # Run WebdriverIO tests when the container launches
         CMD ["npx", "wdio", "wdio.conf.ts"]
