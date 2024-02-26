@@ -17,11 +17,11 @@ But what are people spending their time playing? I subset the data into differen
 
 I found the means and standard deviations of each of the category subsets I made. There were some interesting results! 
 
-({% include game_meanstd.html %})
+{% include game_meanstd.html %}
  
 Most notably, mmo and f2p games had the highest average playtime, but the standard deviations of playtime were staggeringly large! It shows some of the f2p games had a very high average playtime. That’s a lot of variance in how people play those. The mmo and f2p game loops really are working on some people. On the other end of the spectrum you see metroidvania as being roughly similar in mean and std, metroidvanias have tight-knit experiences and there’s not much end game so you don’t see too much variance in how people play them. Puzzle games, strategy games, and hack n slash games tell a similar story to each other, the average is about the same where there are probably a lot of low hour games but some of the games in the genres people played a significant amount. All those hours aren't entirely equal though, some games are enjoyed more than others.
 
-![Positive review average by category](/img/reviews_avgs2.png){:class="img-responsive"}
+![Positive review average by category](/img/reviews_avgs2.png)
 
 Interestingly, most of the genres even out at a C or low B. Metroidvania people are enjoying their genre even though there’s less overall hours than other genres. MMO people are apparently very critical of their genre despite investing a lot of time.
 
