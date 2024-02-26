@@ -15,7 +15,7 @@ I tried to find the correlation between the average time played of all games and
 
 But what are people spending their time playing? I subset the data into different genres, including a f2p (free to play) category because although f2p games like dota 2 and fortnite are very different games, they share the fact they have a game loop that keeps you coming back to play more. Many f2p games share a similar philosophy about having the player return to the game and never really beating it. 
 
-I found the means and standard deviations of each of the category subsets I made. There were some interesting results! 
+I found the means and standard deviations of each of the category subsets I made based on hours played. There were some interesting results! 
 <html>
 {% include game_meanstd.html %}
  </html>
