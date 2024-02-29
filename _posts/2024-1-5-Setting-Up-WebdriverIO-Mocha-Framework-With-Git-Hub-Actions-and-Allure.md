@@ -5,7 +5,7 @@ subtitle: WebdriverIO, npm, Typescript, Mocha, Docker, Github Actions, Allure
 ---
 
 
-There's quite a few different technologies at work, but we're going to assume you have and can use, Git, VS Code, Git Bash installed. We'll begin starting off with setting up WebdriverIO, Mocha, and Allure.
+There's quite a few different technologies at work, but we're going to assume you have and can use, Git, VS Code, Git Bash. We'll begin starting off with setting up WebdriverIO, Mocha, and Allure.
 
 In your main directory, in the bash terminal, enter this to begin the instillation of WebdriverIO and Mocha for the WebdriverIO Command Line Interface.
         
@@ -49,8 +49,6 @@ These are the following options to choose:
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/ba955ac4-7097-4acf-811f-a0173d8eaa10)
 
-![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/7c40b307-de13-42e5-96f0-3fb1f99d4d31)
-
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/3e104f0e-f7cb-4755-ad7b-53d4ae4e6785)
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/1c8744ab-716e-4723-afcf-88afc5c27653)
@@ -88,6 +86,7 @@ Configure your reporter to this:
                 ],
 
 Next, you'll want to get your package.json file set up for using Allure, Mocha, and Chrome:
+
         {
           "name": "my-new-project",
           "type": "module",
@@ -211,7 +210,7 @@ Go to settings, Actions, then General and set your permissions to this:
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/98454d77-7c7c-4f3e-b6ac-8332e5cc6da0)
 
 
-Now in your bash terminal do git add ., git commit -m "your commit name", and git push to see it run your Docker container, test suite, and create your allure report on the gh-pages branch hosted by github pages. I have a purposefully added a failed test to show it will run even if one of the tests fails:
+Now in your bash terminal do "git add .", then git commit -m "your commit name", and git push to see it run your Docker container, test suite, and create your allure report on the gh-pages branch hosted by github pages. I have a purposefully added a failed test to show it will run even if one of the tests fails:
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/624f4825-042c-4a3b-9419-6b10626bf4d2)
 
