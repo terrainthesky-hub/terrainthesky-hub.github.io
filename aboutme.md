@@ -5,7 +5,7 @@ title: About me
 
 Hi! I'm Lesley, welcome to my portfolio!
 
-I'm Data Scientist / Automation Tester that loves data and storytelling. I have a literature degree from UC Berkeley, and I graduated from Lambda School to learn about Data Science and Computer Science. I love learning about new tech, doing deep dives into data, and figuring out challenging puzzles.
+I'm an Automation Tester, Technical Writer, and Data Science enthusiast that loves data and storytelling. I have a literature degree from UC Berkeley, and I graduated from Lambda School to learn about Data Science and Computer Science. I love learning about new tech, doing deep dives into data, and figuring out challenging puzzles.
 
 Check out [my searchlight](https://my.searchlight.ai/lesley-rich) to see what others think about working with me.
 
