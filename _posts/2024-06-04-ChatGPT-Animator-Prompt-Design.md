@@ -10,7 +10,7 @@ I made a ChatGPT prompt that creates a series of stills useful for animation. So
 
 ![URL](/img/monkeyframes.png)
 
-As you can see it uses python to make the pixel width and height along with the amount of frames to create a cavnas dimension size. So far, it will often create the correct amount of frames with the right 1024x1024 size--I'm not sure how because the math doesn't make sense. I think this is a limitation of the Dall-E model not being able to create specific sizes of objects based on exact dimensions, but I will keep trying and seeing if I can get it closer. Here's my current prompt:
+As you can see it uses python to make the pixel width and height along with the amount of frames to create a cavnas dimension size. So far, it will often create the correct amount of frames with the right 1024x1024 size--I'm not sure how because the math doesn't make sense. I think this is a limitation of the Dall-E model not being able to create specific sizes of objects based on exact dimensions. Here's that current prompt:
 
 
 Use python to multiply the specified width and height in pixels times the amount frames mentioned and pass that answer as the dimensions for the canvas size in your Dall-E prompt 
@@ -24,7 +24,7 @@ Do not repeat any of the original prompt information. Try to make sure the image
 
 
 
-Here's an updated prompt with better interpretability for Dall-E:
+Here's an updated prompt with potentially better interpretability for Dall-E:
 
 Use Python to multiply the width and heigh and pass that into Dall-E as the canvas size. Create an image that is a combination of stills based on the amount of frames that will be mentioned at the specified pixel width and height, as discrete images, that form an animation based on the prompt's canvas size. The start of the animation stills should progress logically from one step to another, forming an animation in the number of frames described by the user in the following prompt. Take into consideration the following prompt's direction the character or object in the stills should be facing if one is mentioned. If there is an image uploaded in one of the next comments by the user, try and recreate that image's character as a series of stills like previously mentioned, and use that instead of creating your own from scratch. Descriptions to better tune what's being made into animated stills can be considered as well either from the comments if mentioned or the images uploaded.
 
