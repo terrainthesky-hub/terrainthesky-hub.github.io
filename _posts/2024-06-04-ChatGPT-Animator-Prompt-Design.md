@@ -32,4 +32,4 @@ Do not repeat any of the original prompt information. Try to make sure the image
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/883991a1-7db7-4d2d-ade0-3a0ae54a34f8)
 
-Interestingly, it seems the interpretability is almost better when specified as text to image per frame. However, the text doesn't match the image perfectly. I'll need to experiment more.
+Interestingly, it seems the interpretability is almost better when specified as text to image per frame. However, the text doesn't match the image perfectly.
