@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a prompt that uses python and Dall-E to create animation stills
+title: Creating a prompt that uses Python and Dall-E to create animation stills
 subtitle: ChatGPT, Prompt design
 ---
 
