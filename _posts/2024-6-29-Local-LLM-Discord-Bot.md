@@ -1,5 +1,5 @@
-So I decided to make a discord bot that uses a locally running Large Language Model. In this case, I used gemma2:9b, a lightweight 9 billion parameter but state of the art LLM that can be
-run with limited VRAM. I installed it using [Ollama](https://ollama.com/). Once you've downloaded and installed Ollama,
+So I decided to make a discord bot that uses a locally running Large Language Model. In this case, I used gemma2:9b, a lightweight, state of the art LLM that can be
+run with limited VRAM (llama70b needs at least 128Gigs of VRAM to run at a reasonable speed). I installed it using [Ollama](https://ollama.com/). Once you've downloaded and installed Ollama,
 pull the LLM model you want in your terminal with the following command.
 
     ollama pull gemma2:9b
@@ -113,7 +113,7 @@ Once you've created this bot.py file, create a pip environment and install the d
       pip install discord
       pip install python-dotenv
 
-Now you're ready to run your bot from the terminal by running the bot.py Python script. Use !ask MESSAGE_HERE in discord query the bot.
+Now you're ready to run your bot from the terminal by running the bot.py Python script. Use !ask MESSAGE_HERE in discord to query the bot.
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/f413b6d2-994c-48f1-9167-72df26d460dc)
 
