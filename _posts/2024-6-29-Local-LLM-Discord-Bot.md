@@ -1,10 +1,10 @@
 So I decided to make a discord bot that uses a locally running Large Language Model. In this case, I used gemma2:9b, a lightweight 9 billion parameter but state of the art LLM that can be
-run with limited VRAM. I installed it using [Ollama](https://github.com/terrainthesky-hub/Project_1-1](https://ollama.com/). Once you've downloaded and installed Ollama,
-run it in your terminal with the following command.
+run with limited VRAM. I installed it using [Ollama](https://ollama.com/). Once you've downloaded and installed Ollama,
+pull the LLM model you want in your terminal with the following command.
 
     ollama pull gemma2:9b
 
-After, type.
+After, type this to run it locally.
 
     ollama run gemma2
 
@@ -103,7 +103,7 @@ For proper security, set up a .env file, and grab your discord bot token from th
 
       DISCORD_TOKEN=YOUR_DISCORD_TOKEN_HERE
 
-Also add your Ollama_Api_Url variable to the .env file azs well, but you'll want to generate your own port:
+Also add your Ollama_Api_Url variable to the .env file as well, but you'll want to generate your own port:
 
       OLLAMA_API_URL=http://localhost:YOUR_PORT_NUMBER_HERE/api/generate
       
