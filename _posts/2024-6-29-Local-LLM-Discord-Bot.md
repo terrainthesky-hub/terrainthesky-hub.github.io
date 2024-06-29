@@ -78,15 +78,13 @@ You'll want to take note of the bot token on the bot page on from the left tab t
             
             if response.status_code == 200:
                 try:
-                    # Split the response text into individual JSON objects
                     json_objects = response.text.split('\n')
                     responses = []
                     for obj in json_objects:
-                        if obj.strip():  # Ignore empty lines
+                        if obj.strip():
                             parsed_obj = json.loads(obj)
                             responses.append(parsed_obj['response'])
                     
-                    # Join responses without adding extra spaces
                     final_response = ''.join(responses)
                     await message.channel.send(final_response)
                 except ValueError as e:
@@ -96,7 +94,7 @@ You'll want to take note of the bot token on the bot page on from the left tab t
     
     client.run(DISCORD_TOKEN)
 
-This script will send your discord bot's query to your local machine where it will return the local LLM's series of tokens and combine those json token responses
+This script will send your discord bot's query to your local machine where it will return the local LLM's series of tokens, combine and clean those json token responses,
 and send them to the channel.
 
 For proper security, set up a .env file, and grab your discord bot token from the discord webpage under the bot tab and enter this into your .env:
