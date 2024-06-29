@@ -44,7 +44,7 @@ Copy the generated URL at the bottom and go to that webpage. Now you can add the
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/1199fde3-3750-4d64-9c0d-d1ba29f1292e)
 
-You'll want to take note of the bot token on the bot page on from the left tab to save for later. Now you're ready to write the python code. Create a bot.py file:
+You'll want to take note of the bot token on the bot page on from the left tab to save for later. Now you're ready to write the Python code. Create a bot.py file:
 
     import os
     from dotenv import load_dotenv
@@ -107,7 +107,7 @@ Also add your Ollama_Api_Url variable to the .env file as well, but you'll want 
 
       OLLAMA_API_URL=http://localhost:YOUR_PORT_NUMBER_HERE/api/generate
       
-Once you've created this bot.py file, create a pip environment and install the dependendcies.
+Once you've created this .env file and bot.py file, create a pip environment and install the following dependendcies.
 
       pip install requests
       pip install discord
