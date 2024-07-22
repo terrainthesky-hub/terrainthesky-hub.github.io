@@ -1,5 +1,5 @@
-So I decided to make a discord bot that uses a locally running Large Language Model. In this case, I used gemma2:9b, a lightweight, state of the art LLM that can be
-run with limited VRAM (llama70b needs at least 128Gigs of VRAM to run at a reasonable speed). I installed it using [Ollama](https://ollama.com/). Once you've downloaded and installed Ollama,
+So I decided to make a discord bot that uses a locally running Large Language Model. In this case, I used gemma2:9b, a lightweight, state of the art, low parameter LLM that can be
+run with limited VRAM (llama70b needs at least 120 GB of VRAM to run at a reasonable speed). I installed it using [Ollama](https://ollama.com/). Once you've downloaded and installed Ollama,
 pull the LLM model you want in your terminal with the following command.
 
     ollama pull gemma2:9b
