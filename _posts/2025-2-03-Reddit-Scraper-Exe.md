@@ -17,4 +17,4 @@ And some examples of what the results.html file looks like:
 
 Here's a github link incase you want to use it yourself:
 
-[Scraper.exe github link.](https://github.com/terrainthesky-hub/RedditScraper/tree/main)
+[Reddit Scraper github link.](https://github.com/terrainthesky-hub/RedditScraper/tree/main)
