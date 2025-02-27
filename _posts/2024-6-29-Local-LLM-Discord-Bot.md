@@ -105,7 +105,7 @@ Also add your Ollama_Api_Url variable to the .env file as well, but you'll want 
 
       OLLAMA_API_URL=http://localhost:YOUR_PORT_NUMBER_HERE/api/generate
       
-Once you've created this .env file and bot.py file, create a pip environment and install the following dependendcies.
+Once you've created this .env file and bot.py file, create a pip environment and install the following dependencies.
 
       pip install requests
       pip install discord
