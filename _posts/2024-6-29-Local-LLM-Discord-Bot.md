@@ -1,4 +1,4 @@
-So I decided to make a discord bot that uses a locally running Large Language Model. In this case, I used gemma2:9b, a lightweight, state of the art, low parameter LLM that can be
+So I decided to make a discord bot that uses a locally running Large Language Model. In this case, I used gemma2:9b, a lightweight, low parameter LLM that can be
 run with limited VRAM (llama70b needs at least 120 GB of VRAM to run at a reasonable speed). I installed it using [Ollama](https://ollama.com/). Once you've downloaded and installed Ollama,
 pull the LLM model you want in your terminal with the following command.
 
@@ -44,7 +44,7 @@ Copy the generated URL at the bottom and go to that webpage. Now you can add the
 
 ![image](https://github.com/terrainthesky-hub/terrainthesky-hub.github.io/assets/60892621/1199fde3-3750-4d64-9c0d-d1ba29f1292e)
 
-You'll want to take note of the bot token on the bot page on from the left tab to save for later. Now you're ready to write the Python code. Create a bot.py file:
+You'll want to take note of the bot token on the bot page on from the left tab to save for later. Now you're ready to write the Python code. Create a bot.py file, and here is code for the defaulted Ollama gemma2 settings:
 
     import os
     from dotenv import load_dotenv
