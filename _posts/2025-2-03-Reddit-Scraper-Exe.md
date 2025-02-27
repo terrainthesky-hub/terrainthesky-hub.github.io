@@ -15,6 +15,6 @@ And some examples of what the results.html file looks like:
 
 ![image](https://github.com/user-attachments/assets/d8742dbc-f2f6-42df-9558-6a7b751648e8)
 
-Here's a github link incase you want to use it yourself:
+Here's a github link in case you want to use it yourself:
 
 [Reddit Scraper github link.](https://github.com/terrainthesky-hub/RedditScraper/tree/main)
